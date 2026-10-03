@@ -1,7 +1,7 @@
 {
-  "versionCode": 70,
-  "versionName": "0.5.23",
-  "apkUrl": "https://raw.githubusercontent.com/karike-prog/tuneriptv-updates/main/TunerIPTV-v0.5.23.apk",
-  "sha256": "426c7dfbc5c15ebe5db922c77b7ef70a6834bdbcefeb5b4b7c7ce45fa3587bde",
-  "notes": "Lisätty oma XMLTV/EPG-lähde, mukaan lukien epg.bestin .xml.gz-linkit. Sääikkunassa ylin kortti on merkitty Nyt-näkymäksi, päiväkortit näyttävät viikonpäivän ja päivämäärän, ja pikkusää on normaalisti hillitty ilman keltaista taustaa."
+  "versionCode": 71,
+  "versionName": "0.5.24",
+  "apkUrl": "https://raw.githubusercontent.com/karike-prog/tuneriptv-updates/main/TunerIPTV-v0.5.24.apk",
+  "sha256": "fb8e9189b1d6ad615b6df87f15664da080b159fb5d55c83b8a1df521d10660ed",
+  "notes": "Lisätty Liiga-tulospalvelun testiversio: oikean reunan live-paneeli, ottelun lisätiedot ja Katso LIVE -kanavahaku joukkueiden nimien perusteella. Pikkusään normaalitilan keltainen tausta poistettu."
 }
