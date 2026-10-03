@@ -1,7 +1,7 @@
 {
-  "versionCode": 67,
-  "versionName": "0.5.20-ota-test",
-  "apkUrl": "https://raw.githubusercontent.com/karike-prog/tuneriptv-updates/main/TunerIPTV-v0.5.20-ota-test.apk",
-  "sha256": "7e5df49866f483f12510cf2c6052bee6d4dd1ed8f21269fec1359b5a3cc7160b",
-  "notes": "Ensimmäinen TunerIPTV OTA-päivitystesti. Ei uusia ominaisuuksia: tällä varmistetaan päivityksen lataus ja asennus suoraan TV:stä."
+  "versionCode": 68,
+  "versionName": "0.5.21",
+  "apkUrl": "https://raw.githubusercontent.com/karike-prog/tuneriptv-updates/main/TunerIPTV-v0.5.21.apk",
+  "sha256": "9d1febdcf1ede81816cdf368744a3ad2d707430eaa41a4899d0089379a60b8fd",
+  "notes": "Tuner IPTV: näkyvä sovellusnimi korjattu ja sää lisätty kellon vasemmalle puolelle. Sääruudun OK avaa 3 vuorokauden ennusteen."
 }
