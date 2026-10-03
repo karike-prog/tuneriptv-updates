@@ -1,0 +1,7 @@
+{
+  "versionCode": 66,
+  "versionName": "0.5.19-easy-updates",
+  "apkUrl": "",
+  "sha256": "",
+  "notes": "OTA-päivitysjärjestelmä otettu käyttöön. Ensimmäinen verkon kautta jaettava päivitys julkaistaan versiosta 0.5.20 alkaen."
+}
