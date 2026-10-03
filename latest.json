@@ -1,7 +1,7 @@
 {
-  "versionCode": 66,
-  "versionName": "0.5.19-easy-updates",
-  "apkUrl": "",
-  "sha256": "",
-  "notes": "OTA-päivitysjärjestelmä otettu käyttöön. Ensimmäinen verkon kautta jaettava päivitys julkaistaan versiosta 0.5.20 alkaen."
+  "versionCode": 67,
+  "versionName": "0.5.20-ota-test",
+  "apkUrl": "https://raw.githubusercontent.com/karike-prog/tuneriptv-updates/main/TunerIPTV-v0.5.20-ota-test.apk",
+  "sha256": "7e5df49866f483f12510cf2c6052bee6d4dd1ed8f21269fec1359b5a3cc7160b",
+  "notes": "Ensimmäinen TunerIPTV OTA-päivitystesti. Ei uusia ominaisuuksia: tällä varmistetaan päivityksen lataus ja asennus suoraan TV:stä."
 }
