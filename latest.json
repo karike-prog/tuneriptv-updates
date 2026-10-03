@@ -1,7 +1,7 @@
 {
-  "versionCode": 69,
-  "versionName": "0.5.22",
-  "apkUrl": "https://raw.githubusercontent.com/karike-prog/tuneriptv-updates/main/TunerIPTV-v0.5.22.apk",
-  "sha256": "7fd05e0bb98ffda37a07bd936a1f3543fe835b03dccd8ae47f2cfabfa4b40fb1",
-  "notes": "Sää ja kello voidaan näyttää erikseen. Sääasetuksiin lisätty paikkakunnan valinta ja sääennuste on muutettu visuaalisemmaksi. Tuner IPTV -sovellusnimen näyttämistä on vahvistettu."
+  "versionCode": 70,
+  "versionName": "0.5.23",
+  "apkUrl": "https://raw.githubusercontent.com/karike-prog/tuneriptv-updates/main/TunerIPTV-v0.5.23.apk",
+  "sha256": "426c7dfbc5c15ebe5db922c77b7ef70a6834bdbcefeb5b4b7c7ce45fa3587bde",
+  "notes": "Lisätty oma XMLTV/EPG-lähde, mukaan lukien epg.bestin .xml.gz-linkit. Sääikkunassa ylin kortti on merkitty Nyt-näkymäksi, päiväkortit näyttävät viikonpäivän ja päivämäärän, ja pikkusää on normaalisti hillitty ilman keltaista taustaa."
 }
