@@ -1,7 +1,7 @@
 {
-  "versionCode": 72,
-  "versionName": "0.5.25",
-  "apkUrl": "https://raw.githubusercontent.com/karike-prog/tuneriptv-updates/main/TunerIPTV-v0.5.25.apk",
-  "sha256": "f588dbda4b392d05ea4fa4df80df88c721bf084f0956d5e84f50a3853a15920c",
-  "notes": "Tulospalvelun korjaus: Liigan API-vastaus luetaan oikein, raakadataa ei näytetä virheenä, oikean reunan paneeli on 25 % ruudusta ja tausta hieman läpinäkyvämpi."
+  "versionCode": 73,
+  "versionName": "0.5.26",
+  "apkUrl": "https://raw.githubusercontent.com/karike-prog/tuneriptv-updates/main/TunerIPTV-v0.5.26.apk",
+  "sha256": "48642ce5e702b1027f36fbec3fcea1e7cb4a8a81fec05a61d680e93def429db1",
+  "notes": "Tulospalvelun navigointi uusittu: oikea nuoli fokusoi otteluihin, ylös/alas liikkuu ottelulistassa, OK avaa tarkemmat tiedot ja Katso LIVE -toiminnon, vasen palaa vaiheittain. Ottelurivit skaalautuvat tiiviimmiksi suurelle ottelumäärälle ja tulospalvelun voi avata nopeasti oikealla nuolella päivän ensimmäisen avauksen jälkeen."
 }
