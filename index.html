@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <title>TunerIPTV – päivitykset</title>
+  <style>
+    :root{color-scheme:dark}
+    *{box-sizing:border-box}
+    body{margin:0;background:#090909;color:#f6f6f6;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;display:grid;min-height:100vh;place-items:center}
+    .card{width:min(720px,calc(100% - 36px));background:#151515;border:1px solid #333;border-radius:18px;padding:32px;box-shadow:0 18px 60px #0008}
+    h1{margin:0 0 8px;color:#f3c900;font-size:clamp(28px,5vw,42px)}
+    p{line-height:1.55}.muted{color:#aaa}.status{margin:22px 0;padding:16px;border-radius:12px;background:#0d0d0d;border:1px solid #2d2d2d}
+    .button{display:inline-block;margin-top:14px;padding:13px 20px;border-radius:10px;background:#f3c900;color:#111;font-weight:800;text-decoration:none}
+    .button[hidden]{display:none}
+    pre{white-space:pre-wrap;background:#0d0d0d;border-radius:10px;padding:14px;color:#ddd;border:1px solid #292929}
+    .ok{color:#f3c900;font-weight:700}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>TunerIPTV</h1>
+    <p class="muted">Android TV -sovelluksen päivityssivu</p>
+    <div class="status">
+      <div id="version">Haetaan uusinta versiota…</div>
+      <div id="state" class="muted"></div>
+    </div>
+    <pre id="notes" hidden></pre>
+    <a id="download" class="button" hidden>Lataa APK</a>
+  </main>
+  <script>
+    fetch('./latest.json', {cache:'no-store'})
+      .then(r => { if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+      .then(x => {
+        document.getElementById('version').innerHTML =
+          'Uusin julkaistu versio: <span class="ok">' + (x.versionName || '—') + '</span>';
+        const n=document.getElementById('notes');
+        if(x.notes){n.textContent=x.notes;n.hidden=false}
+        const a=document.getElementById('download');
+        const state=document.getElementById('state');
+        if(x.apkUrl){
+          a.href=x.apkUrl;
+          a.hidden=false;
+          state.textContent='APK on ladattavissa.';
+        } else {
+          state.textContent='Ensimmäistä OTA-päivitystä valmistellaan.';
+        }
+      })
+      .catch(() => {
+        document.getElementById('version').textContent='Päivitystietoa ei saatu ladattua.';
+        document.getElementById('state').textContent='Yritä hetken kuluttua uudelleen.';
+      });
+  </script>
+</body>
+</html>
