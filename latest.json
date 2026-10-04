@@ -1,7 +1,7 @@
 {
-  "versionCode": 74,
-  "versionName": "0.5.27",
-  "apkUrl": "https://raw.githubusercontent.com/karike-prog/tuneriptv-updates/main/TunerIPTV-v0.5.27.apk",
-  "sha256": "0a23ccbe20d23dddb8b65a47a4163fe3028b47b3f99e4e7adeb25f640d139c4b",
-  "notes": "Vakaa versio. EPG- ja logotoimintojen uudemmat korjaukset ovat testissä ennen seuraavaa julkaisua."
+  "versionCode": 84,
+  "versionName": "0.5.37",
+  "apkUrl": "https://raw.githubusercontent.com/karike-prog/tuneriptv-updates/main/TunerIPTV-v0.5.37.apk",
+  "sha256": "dc94e4266210713cba58559da375ac44970dd61dfe2a49760ce92ab08237c375",
+  "notes": "Vakaa versio: korjattu kaapeli-EPG:n aukkojen täyttö, sovellukset, sähkönhinta sääikkunassa ja käyttöliittymäparannuksia."
 }
